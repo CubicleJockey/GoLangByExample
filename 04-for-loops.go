@@ -41,7 +41,7 @@ func main(){
 	for n := 0; n <=5; n++ {
 		if n % 2 == 0 { 
 			fmt.Println("continue invoked skip rest of loop")
-			continue; 
+			continue
 		}
 		fmt.Println(n)
 	}
