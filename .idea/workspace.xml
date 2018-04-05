@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c04cc6e-d469-4af7-abb4-145e5928b74d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/18-methods.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-interfaces.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-go-routines.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,14 +24,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="19-interfaces.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="19-interfaces.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/19-interfaces.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="323">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="e#14#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20-errors.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20-errors.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="e#14#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="21-go-routines.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21-go-routines.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -94,6 +115,8 @@
         <option value="$PROJECT_DIR$/17-structs.go" />
         <option value="$PROJECT_DIR$/18-methods.go" />
         <option value="$PROJECT_DIR$/19-interfaces.go" />
+        <option value="$PROJECT_DIR$/20-errors.go" />
+        <option value="$PROJECT_DIR$/21-go-routines.go" />
       </list>
     </option>
   </component>
@@ -153,15 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 19-interfaces.go">
-    <configuration name="go build 15-recursion.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang-Intro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/15-recursion.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 20-errors.go">
     <configuration name="go build 16-pointers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang-Intro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -194,6 +209,14 @@
       <filePath value="$PROJECT_DIR$/19-interfaces.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="go build 20-errors.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang-Intro" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/20-errors.go" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -203,19 +226,19 @@
       <filePath value="$PROJECT_DIR$" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build 15-recursion.go" />
       <item itemvalue="Go Build.go build 16-pointers.go" />
       <item itemvalue="Go Build.go build 17-structs.go" />
       <item itemvalue="Go Build.go build 18-methods.go" />
       <item itemvalue="Go Build.go build 19-interfaces.go" />
+      <item itemvalue="Go Build.go build 20-errors.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 20-errors.go" />
         <item itemvalue="Go Build.go build 19-interfaces.go" />
         <item itemvalue="Go Build.go build 18-methods.go" />
         <item itemvalue="Go Build.go build 17-structs.go" />
         <item itemvalue="Go Build.go build 16-pointers.go" />
-        <item itemvalue="Go Build.go build 15-recursion.go" />
       </list>
     </recent_temporary>
   </component>
@@ -523,11 +546,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/19-interfaces.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="323">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20-errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21-go-routines.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
