@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c04cc6e-d469-4af7-abb4-145e5928b74d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/22-channels.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23-channel-buffering.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24-channel-synchronization.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-channel-directions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26-select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27-timeouts.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21-go-routines.go" beforeDir="false" afterPath="$PROJECT_DIR$/21-go-routines.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="18-methods.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/18-methods.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="238">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
@@ -28,11 +29,8 @@
       <file leaf-file-name="19-interfaces.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/19-interfaces.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="731">
               <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -40,11 +38,8 @@
       <file leaf-file-name="20-errors.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20-errors.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="255">
               <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="e#14#47#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -61,47 +56,64 @@
       <file leaf-file-name="22-channels.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/22-channels.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="23-channel-buffering.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="23-channel-buffering.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/23-channel-buffering.go">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="24-channel-synchronization.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24-channel-synchronization.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <element signature="e#168#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="25-channel-directions.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/25-channel-directions.go">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-values.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-values.go">
+      <file leaf-file-name="26-select.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/26-select.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="374">
+              <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <folding>
+                <element signature="e#158#189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-variables.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-variables.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="04-for-loops.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-for-loops.go">
+      <file leaf-file-name="27-timeouts.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/27-timeouts.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="516">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#219#250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05-if-else.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-if-else.go">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -139,6 +151,10 @@
         <option value="$PROJECT_DIR$/22-channels.go" />
         <option value="$PROJECT_DIR$/23-channel-biffering.go" />
         <option value="$PROJECT_DIR$/23-channel-buffering.go" />
+        <option value="$PROJECT_DIR$/24-channel-synchronization.go" />
+        <option value="$PROJECT_DIR$/25-channel-directions.go" />
+        <option value="$PROJECT_DIR$/26-select.go" />
+        <option value="$PROJECT_DIR$/27-timeouts.go" />
       </list>
     </option>
   </component>
@@ -198,39 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 23-channel-buffering.go">
-    <configuration name="go build 19-interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang-Intro" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/19-interfaces.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="go build 20-errors.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang-Intro" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20-errors.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="go build 21-go-routines.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang-Intro" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/21-go-routines.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="go build 22-channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang-Intro" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/22-channels.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 27-timeouts.go">
     <configuration name="go build 23-channel-buffering.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang-Intro" />
       <working_directory value="$PROJECT_DIR$" />
@@ -238,6 +222,38 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/23-channel-buffering.go" />
       <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="go build 24-channel-synchronization.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang-Intro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/24-channel-synchronization.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 25-channel-directions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang-Intro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/25-channel-directions.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 26-select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang-Intro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/26-select.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 27-timeouts.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang-Intro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/27-timeouts.go" />
+      <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <working_directory value="$PROJECT_DIR$" />
@@ -248,19 +264,19 @@
       <filePath value="$PROJECT_DIR$" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build 19-interfaces.go" />
-      <item itemvalue="Go Build.go build 20-errors.go" />
-      <item itemvalue="Go Build.go build 21-go-routines.go" />
-      <item itemvalue="Go Build.go build 22-channels.go" />
       <item itemvalue="Go Build.go build 23-channel-buffering.go" />
+      <item itemvalue="Go Build.go build 24-channel-synchronization.go" />
+      <item itemvalue="Go Build.go build 25-channel-directions.go" />
+      <item itemvalue="Go Build.go build 26-select.go" />
+      <item itemvalue="Go Build.go build 27-timeouts.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 27-timeouts.go" />
+        <item itemvalue="Go Build.go build 26-select.go" />
+        <item itemvalue="Go Build.go build 25-channel-directions.go" />
+        <item itemvalue="Go Build.go build 24-channel-synchronization.go" />
         <item itemvalue="Go Build.go build 23-channel-buffering.go" />
-        <item itemvalue="Go Build.go build 22-channels.go" />
-        <item itemvalue="Go Build.go build 21-go-routines.go" />
-        <item itemvalue="Go Build.go build 20-errors.go" />
-        <item itemvalue="Go Build.go build 19-interfaces.go" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +322,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/22-channels.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-values.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-for-loops.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-channel-buffering.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/00-hello-world.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -546,43 +590,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-variables.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-for-loops.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
+        <state relative-caret-position="782">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-if-else.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/18-methods.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/19-interfaces.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="731">
           <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-          <folding>
-            <element signature="e#14#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20-errors.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="255">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="e#14#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,15 +627,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/22-channels.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/23-channel-buffering.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-channel-synchronization.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="e#168#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25-channel-directions.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26-select.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="e#158#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27-timeouts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#219#250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
