@@ -86,6 +86,4 @@ func main() {
 
     //format to stderr
     fmt.Fprintf(os.Stderr, "an %s\n", "error")
-
-
 }
